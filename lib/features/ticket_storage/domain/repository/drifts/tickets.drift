@@ -1,0 +1,8 @@
+CREATE TABLE "tickets" (
+    "id" INT PRIMARY KEY AUTOINCREMENT,
+    "url" TEXT NOT NULL,
+    "downloadPath" TEXT,
+    "name" TEXT,
+    "loaded" BOOL,
+    "icon" TEXT,
+);
